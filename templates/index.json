@@ -6,27 +6,36 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "SPRING INTO SUMMER",
             "heading_size": "h0"
+          }
+        },
+        "text_TezHx6": {
+          "type": "text",
+          "settings": {
+            "text": "20% OFF IN STOCK ITEMS",
+            "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Women collection",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Men Collection",
+            "button_link_2": "shopify:\/\/collections\/all",
             "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading",
+        "text_TezHx6",
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Group_2_b96dee56-da4c-482e-8254-3c807f5648cb.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -66,10 +75,30 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "my_featured_collection_N9x6MB": {
+      "type": "my-featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "new-arrivals-1",
+        "collection1": "on-sale",
+        "image_picker1": "shopify:\/\/shop_images\/Rectangle_183.png",
+        "image_picker2": "shopify:\/\/shop_images\/Rectangle_182.png",
+        "heading_size": "h1",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "my_featured_collection_N9x6MB"
   ]
 }

@@ -343,7 +343,7 @@
   position: relative;
   height: fit-content;
   align-items: center;
-  text-align: center;
+  text-align: left;
   width: 100%;
   word-wrap: break-word;
   z-index: 1;
@@ -361,7 +361,8 @@
   .banner--desktop-transparent .banner__box {
     padding: 4rem 0;
     background: transparent;
-    max-width: 89rem;
+    max-width: 100%;
+    width: 100%;
     border: none;
     border-radius: 0;
     box-shadow: none;
@@ -435,6 +436,7 @@
 
 .banner__heading {
   margin-bottom: 0;
+  line-height: 48.36px;
 }
 
 .banner__box .banner__heading + * {
@@ -445,7 +447,8 @@
   display: inline-flex;
   flex-wrap: wrap;
   gap: 1rem;
-  max-width: 45rem;
+  max-width: 100%;
+  width: 100%;
   word-break: break-word;
 }
 
@@ -472,7 +475,7 @@
 }
 
 .banner__box > * + .banner__buttons {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 @media screen and (max-width: 749px) {
@@ -489,4 +492,19 @@
   .banner--desktop-transparent .rte a:hover {
     color: currentColor;
   }
+}
+
+.banner--desktop-transparent .banner__box{
+  padding: 0%;
+}
+
+.banner__text{
+  line-height: 19.2px;
+  letter-spacing: 0.04em;
+}
+
+.banner .button {
+  columns: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  font-weight: var(--font-heading-weight);
 }

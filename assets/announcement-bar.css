@@ -1,0 +1,36 @@
+
+.announcement-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--tertiary-color);
+}
+
+
+.bar-left{
+    display: flex;
+}
+
+.bar-left .bar-text:not(.bar-text:nth-child(1)){
+    margin-left: 36px;
+}
+
+.bar-text{
+    margin-top:10px ;
+    margin-bottom: 10px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+
+}
+
+.bar-right{
+    font-weight: var(--font-heading-weight);
+    line-height: 15px;
+    letter-spacing: 0.1em;
+}
+
+.announcement-text{
+    line-height: 18px;
+    letter-spacing: 0.05em;
+}
+

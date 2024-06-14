@@ -5,33 +5,35 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "text_jNtHhE": {
+          "type": "text",
+          "settings": {
+            "text": "Custom Products",
+            "text2": "Gifts & Life Style"
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "link": ""
+            "text1": "FREE shipping on orders over $99 - Exclusions apply"
           }
         }
       },
       "block_order": [
+        "text_jNtHhE",
         "announcement-bar-0"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "show_line_separator": true,
-        "show_social": false,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "enable_country_selector": false,
-        "enable_language_selector": false
+        "bg_color": "#000"
       }
     },
     "header": {
       "type": "header",
       "settings": {
-        "logo_position": "middle-left",
-        "menu": "main-menu",
+        "logo_position": "middle-center",
+        "menu": "olsons-menu",
         "menu_type_desktop": "dropdown",
+        "bg_color": "rgba(0,0,0,0)",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "color_scheme": "scheme-1",

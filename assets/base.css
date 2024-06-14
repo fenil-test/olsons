@@ -99,7 +99,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 
 @media screen and (min-width: 750px) {
   .page-width {
-    padding: 0 5rem;
+    padding: 0 63px;
   }
 
   .header.page-width,
@@ -123,8 +123,8 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 
 @media screen and (min-width: 990px) {
   .header:not(.drawer-menu).page-width {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 63px;
+    padding-right: 63px;
   }
 
   .page-width--narrow {
@@ -3453,4 +3453,14 @@ details-disclosure > details {
   .animate--hover-vertical-lift .button:not([disabled]).button--secondary:hover:after {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
+}
+
+
+.grobal-btn{
+  max-width: 280px;
+  width: 100%;
+  padding: 20px 40px 20px 40px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
 }

@@ -1,0 +1,41 @@
+.header-wrapper{
+    position: absolute;
+    width: 100%;
+}
+
+.header-wrapper--border-bottom{
+    border-bottom: none;
+}
+
+.header__menu-item{
+    line-height: 17.5px;
+    letter-spacing: 0.2em;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.header__icons{
+    display: flex;
+    align-items: baseline;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-change{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    line-height: 17.5px;
+    letter-spacing: 0.2em;
+}
+
+.header-change p{
+    margin-left: 15px;
+}
+
+.header-change p{
+    margin-right: 40px;
+}
